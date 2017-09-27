@@ -1,0 +1,30 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+    /*width: 400px;*/   
+    /*height: 500px;*/  
+    /*transition: width 2s linear, height 2s ease;*/
+}
+
+.post:hover {
+    color: red;
+    /*width: 900px;*/
+    /*height: 200px;*/
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
